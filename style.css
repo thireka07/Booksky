@@ -1,18 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: "Poppins", sans-serif;
 }
-.navbar{
-    background-color: #FD6569;
+
+.navbar {
+    background-color: #80ced6;
     padding: 10px;
 }
-.container{
+
+.container {
     padding: 10px;
 }
-.book-container{
+
+.book-container {
     padding: 15px;
     width: 25%;
     background-color: black;
@@ -22,11 +26,13 @@ body{
     display: inline-block;
     vertical-align: top;
 }
-.book-container h2{
-    color: #FD6569;
+
+.book-container h2 {
+    color: #80ced6;
 }
-.book-container button{
-    background-color: #FD6569;
+
+.book-container button {
+    background-color: #80ced6;
     color: black;
     border-radius: 10px;
     padding-top: 5px;
@@ -36,8 +42,9 @@ body{
     border: none;
     margin-top: 10px;
 }
-.add-button{
-    background-color: #FD6569;
+
+.add-button {
+    background-color: #80ced6;
     color: black;
     border-radius: 100px;
     padding-top: 20px;
@@ -50,7 +57,8 @@ body{
     bottom: 30px;
     right: 30px;
 }
-.popup-overlay{
+
+.popup-overlay {
     background-color: black;
     opacity: 0.8;
     position: absolute;
@@ -61,8 +69,9 @@ body{
     z-index: 1;
     display: none;
 }
-.popup-box{
-    background-color: #FD6569;
+
+.popup-box {
+    background-color: #80ced6;
     width: 40%;
     padding: 40px;
     border-radius: 10px;
@@ -71,9 +80,10 @@ body{
     left: 30%;
     z-index: 2;
     display: none;
-    
+
 }
-.popup-box input{
+
+.popup-box input {
     background: transparent;
     border: none;
     width: 100%;
@@ -82,7 +92,8 @@ body{
     font-size: 20px;
     border-bottom: solid black;
 }
-.popup-box textarea{
+
+.popup-box textarea {
     background: transparent;
     width: 100%;
     margin: 5px;
@@ -90,13 +101,16 @@ body{
     font-size: 20px;
     border: solid black;
 }
-.popup-box input::placeholder{
+
+.popup-box input::placeholder {
     color: black;
 }
-.popup-box textarea::placeholder{
+
+.popup-box textarea::placeholder {
     color: black;
 }
-.popup-box button{
+
+.popup-box button {
     background-color: black;
     padding-left: 20px;
     padding-right: 20px;
@@ -106,10 +120,12 @@ body{
     color: white;
     margin: 5px;
 }
-.popup-box input:focus{
+
+.popup-box input:focus {
     outline: none;
 }
-.popup-box textarea:focus{
+
+.popup-box textarea:focus {
     outline: none;
 }
 
@@ -117,37 +133,49 @@ body{
     .navbar {
         padding: 5px;
         text-align: center;
+        margin: 0;
+        width: 100%;
     }
-    
+
     .container {
         padding: 5px;
     }
-    
+
     .book-container {
         width: 100%;
         margin: 10px 0;
         padding: 10px;
     }
-    
+
     .add-button {
-        padding: 10px;
-        font-size: 20px;
-        bottom: 10px;
-        right: 10px;
+        padding: 10px 20px;
+        font-size: 30px;
+        bottom: 20px;
+        right: 20px;
     }
-    
+
+    .popup-overlay {
+        position: fixed;
+        opacity: 0.8;
+        z-index: 1;
+    }
+
     .popup-box {
-        width: 80%;
-        left: 10%;
-        top: 10%;
+        width: 90%;
+        left: 5%;
+        top: 20%;
         padding: 20px;
+        box-sizing: border-box;
     }
-    
-    .popup-box input, .popup-box textarea {
+
+    .popup-box input,
+    .popup-box textarea {
         font-size: 16px;
         padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
     }
-    
+
     .popup-box button {
         padding: 10px;
         margin: 5px;
