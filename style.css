@@ -112,3 +112,44 @@ body{
 .popup-box textarea:focus{
     outline: none;
 }
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .container {
+        padding: 5px;
+    }
+    
+    .book-container {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    
+    .add-button {
+        padding: 10px;
+        font-size: 20px;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .popup-box {
+        width: 80%;
+        left: 10%;
+        top: 10%;
+        padding: 20px;
+    }
+    
+    .popup-box input, .popup-box textarea {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .popup-box button {
+        padding: 10px;
+        margin: 5px;
+    }
+}
